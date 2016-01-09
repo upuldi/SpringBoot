@@ -1,0 +1,4 @@
+profile:
+  based:
+    property:
+      currentvalue: STAGING

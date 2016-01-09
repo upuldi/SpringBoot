@@ -1,0 +1,7 @@
+profile:
+  based:
+    property:
+      currentvalue: PROD
+
+PropForBean:
+  propertyTwo: 555

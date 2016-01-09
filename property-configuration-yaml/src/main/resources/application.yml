@@ -1,0 +1,27 @@
+
+# This is a flat representation of properties in a yaml file
+aPropertyDirectlyToAMethod : this is a property directly to a method
+anonhierarchicalval: non herarchical value
+
+# This is a some hierarchical representation of properties in a yaml file
+configuration:
+  projectName : Spring Boot12345
+  someprop:
+    someotherprop:
+      anotherprop: another property from hierarchy
+
+PropForBean:
+  propertyOne: 11111
+  propertyTwo: 2222
+  propertyThree: 3333
+
+# This is how you set the current active profile in spring.
+profile:
+  based:
+    property:
+      currentvalue: dev
+
+# This is how you set a profile based property - You only need to override the changing props in respective files
+spring:
+  profiles:
+    active: production

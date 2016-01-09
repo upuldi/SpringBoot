@@ -1,0 +1,8 @@
+profile:
+  based:
+    property:
+      currentvalue: DEV
+
+PropForBean:
+  propertyOne: 9999
+  propertyThree: 0000
