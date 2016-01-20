@@ -1,2 +1,3 @@
-/home/udoluweera/GIT/SpringBoot/PropertyManagement/demo/src/main/java/com/test/APropertyBean.java
-/home/udoluweera/GIT/SpringBoot/PropertyManagement/demo/src/main/java/com/test/DemoApplication.java
+/home/udoluweera/GIT/SpringBoot/property-configuration-yaml/src/main/java/com/test/DemoApplication.java
+/home/udoluweera/GIT/SpringBoot/property-configuration-yaml/src/main/java/com/test/SomeConfiguration.java
+/home/udoluweera/GIT/SpringBoot/property-configuration-yaml/src/main/java/com/test/APropertyBean.java

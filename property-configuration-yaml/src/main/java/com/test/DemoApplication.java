@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.core.env.Environment;
 
 @SpringBootApplication
 @EnableConfigurationProperties
@@ -22,6 +23,8 @@ public class DemoApplication {
     @Autowired
     private APropertyBean aPropertyBean;
 
+    @Autowired
+    Environment environment;
 
     /**
      * This method is used to set properties from the property files
@@ -43,6 +46,8 @@ public class DemoApplication {
         System.out.println("Property from a bean : " + aPropertyBean.getPropertyOne());
         System.out.println("Property from a bean : " + aPropertyBean.getPropertyTwo());
         System.out.println("Property from a bean : " + aPropertyBean.getPropertyThree());
+
+        System.out.println("Property from environment : " + environment.getProperty("configuration.projectName"));
 
         System.out.println(" ********************* Prop Value **************************************\n\n\n");
     }
